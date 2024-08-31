@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.scss" />
+    <title>Movie Search App</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="./assets/OMDb-logo.svg" alt="logo" />
+      <div class="search">
+        <input class="text-input" type="text" placeholder="Search movie" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img class="poster" src="" alt="" />
+        </div>
+        <div class="content">
+          <h2 class="name"></h2>
+          <div class="tag"></div>
+          <p class="description"></p>
+          <div class="list">
+            <p class="info director"></p>
+            <p class="info writer"></p>
+            <p class="info star"></p>
+            <p class="info rating"></p>
+          </div>
+        </div>
+      </div>
+      <div class="error">Movie not found</div>
+    </div>
+  </body>
+  <script src="./scripts/app.js"></script>
+</html>
